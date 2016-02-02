@@ -1,4 +1,4 @@
-# auto-build-ios
+# Auto Build IOS
 Build scripts help to generate ipa with command line on mac
 
 ## Environment & Requirements
@@ -38,4 +38,4 @@ Rules:
 Adjust build settings of generated xcode proejct by unity. This script should be change depends on unity version.
 
 * Disable bitcode.
-* Set research path. Ignore build issues.
+* Set code sign resolurce rule path. Ignore build issues.
