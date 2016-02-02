@@ -31,7 +31,7 @@ Steps:
 * Copy ipa file to resources sharing server.
 
 Rules:
-* ipa name rules: ${JENKINS_JOBNAME}_${JENKINS_BUILD_NUMBER}_${BUILD_DATE}_${GITVERSION}.ipa
+* ipa name rules: ${JENKINS\_JOBNAME}\_${JENKINS\_BUILD\_NUMBER}\_${BUILD\_DATE}\_${GITVERSION}.ipa
 * build date rules: YearMonthDay_HourMinuteSecond
 
 ## setup_xcodeproject.rb
