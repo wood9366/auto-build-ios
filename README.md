@@ -14,12 +14,12 @@ Build scripts help to generate ipa with command line on mac
 Build specific unity project and generate ipa to output folder.
 
 Arguments:
-1. Project Path: Unity project path
-2. XCode Path: Directory of xcode proejct which will be generated from unity
-3. Output Path: Directory ipa file generated in
-4. Provision Profile Path: Apple development provision profile for app
-5. [Optional] Product Name: App product name. If not set, use default value set inside script.
-6. [OPtional] App Id: Apple App Id. If not set, use default value set inside script.
+- Project Path: Unity project path
+- XCode Path: Directory of xcode proejct which will be generated from unity
+- Output Path: Directory ipa file generated in
+- Provision Profile Path: Apple development provision profile for app
+- [Optional] Product Name: App product name. If not set, use default value set inside script.
+- [OPtional] App Id: Apple App Id. If not set, use default value set inside script.
 
 
 
