@@ -10,6 +10,10 @@ Build scripts help to generate ipa with command line on mac
 
 * Ruby 2.0.0p481 with xcodeproj 0.28.2 
 
+## Usage
+* Copy CustomBuild.cs to your unity project.
+* Run BuildIOS.sh with arguments or Run JenkinsBuildIOS.sh from Jenkins.
+
 ## BuildIOS.sh
 Build specific unity project and generate ipa to output folder.
 
@@ -20,8 +24,6 @@ Arguments:
 - Provision Profile Path: Apple development provision profile for app
 - [Optional] Product Name: App product name. If not set, use default value set inside script.
 - [OPtional] App Id: Apple App Id. If not set, use default value set inside script.
-
-
 
 ## JenkinsBuildIOS.sh
 Setup build steps for Jenkins build job.
